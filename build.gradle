@@ -28,6 +28,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.kafka:spring-kafka:3.0.12' // 최신 안정 버전으로 업데이트
     implementation 'org.aspectj:aspectjweaver:1.9.22'
+    implementation 'org.springframework.retry:spring-retry'
 }
 
 tasks.named('bootBuildImage') {
